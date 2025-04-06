@@ -566,11 +566,11 @@
 	},
 	"sources": {
 		"contracts/wVeduCoin.sol": {
-			"keccak256": "0x2e287bdd5ed679649c7fc15336b05e6bf6fd7ceb0c5b0034dcf8958eca81b2e6",
+			"keccak256": "0x382c010a291845ae2bcea4c89d31edf3eabf5614a6fab26aad28bb7aa7c76f9f",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://a13128c281eec46f2a4d18559fc86b19cbb32c82cc33cac094e823513d9b576a",
-				"dweb:/ipfs/QmNeAKhDwzNk251xxGMmUbtn5Et4zeKNhuAbgSDvAreC6B"
+				"bzz-raw://c6810da4ba946b4df71f51969976e3531a289ed7258229d67a7ad3a3a9e46ba4",
+				"dweb:/ipfs/QmenvszgNAbd8AM8raUjeErnPTpEkybpKbeNAkEDTAshTX"
 			]
 		},
 		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol": {

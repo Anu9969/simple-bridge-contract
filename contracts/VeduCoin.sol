@@ -7,12 +7,12 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contr
 
 contract VeduCoin is ERC20, Ownable {
 
-    constructor() ERC20("VeduCoin", "Vedu") Ownable(msg.sender){
+    constructor() payable ERC20("VeduCoin", "Vedu") Ownable(msg.sender){
 
     }
 
     function mint(address _to, uint256 amount) public onlyOwner() {
-        mint(_to, amount);
+        _mint(_to, amount);
     }
 
   

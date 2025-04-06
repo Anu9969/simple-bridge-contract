@@ -12,10 +12,10 @@ contract wVeduCoin is ERC20, Ownable {
     }
 
     function mint(address _to, uint256 amount) public onlyOwner() {
-        mint(_to, amount);
+        _mint(_to, amount);
     }
 
     function burn(address account, uint256 amount) public onlyOwner() {
-        burn(account, amount);
+        _burn(account, amount);
     }
 }

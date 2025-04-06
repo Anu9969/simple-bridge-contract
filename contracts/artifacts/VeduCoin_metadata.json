@@ -7,7 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "payable",
 				"type": "constructor"
 			},
 			{
@@ -548,11 +548,11 @@
 	},
 	"sources": {
 		"contracts/VeduCoin.sol": {
-			"keccak256": "0xadf721d5ffb180be3564b3aa5234ea7679b7019eb8e0ecab17c84b86b174d2a3",
+			"keccak256": "0x722b51eb28929dcae55b5b58228dd158925250e658aeca1a2357b8fff748ce4f",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://f237bef509f44b14949c8ea8a046075b0eff3534708490dbff1db70e2f149eda",
-				"dweb:/ipfs/QmVX5yhvppL5AykZBX5q3zUsVyEzU9GaGCBpZgn3dX4Roc"
+				"bzz-raw://9047381b922ad8fffb18d2ce8c65c89de873796d5079398d4781d1080e1ed684",
+				"dweb:/ipfs/QmRCz3JyXACTBUkPMMipEYnmde6ZY5GJ1MGVn69kUQdqvU"
 			]
 		},
 		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol": {
