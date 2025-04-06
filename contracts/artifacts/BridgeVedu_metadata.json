@@ -262,11 +262,11 @@
 			]
 		},
 		"contracts/BridgeVeduCoin.sol": {
-			"keccak256": "0x1dbae2b5f209f2874b22a1d057a3b6a8b5b807de0973607c0ecc43e7b1fef83e",
+			"keccak256": "0xe7259d466ecd801e16dda3ca8abe113fd51cbe1027b2b18b380215dac8614135",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://1fc1e5d6e46b409b15dcfae553816772dca9e4fcf79b74b3646a6f7b063c2876",
-				"dweb:/ipfs/QmZHcv7AMY2BcAdjstttPEUnJBhKez67eCPgAWnt5HFnny"
+				"bzz-raw://16e3902d62d23e8491748986cb557c576c57402a0f039d44667834e279ebd67d",
+				"dweb:/ipfs/QmQTNgRSBf9yFx26HkoXpcT4b3pMzHbLKsxCVuXF8Wvk9k"
 			]
 		},
 		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol": {

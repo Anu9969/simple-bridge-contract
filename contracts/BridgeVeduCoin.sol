@@ -25,7 +25,10 @@ contract BridgeVedu is Ownable {
         emit Deposit(msg.sender, amount);
     }
 
-    function withdraw(IERC20 account, uint256 amount) public {
+    function withdraw(IERC20 account, uint256 amount) public{
+        require(pendingBalances[msg.sender] >= amount);
+        pendingBalances[msg.sender] -= amount;
+        account.transfer(msg.sender,amount);
 
     }
 
