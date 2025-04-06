@@ -9,7 +9,7 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "_tokenAddress",
+						"name": "account",
 						"type": "address"
 					}
 				],
@@ -61,7 +61,7 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "account",
+						"name": "from",
 						"type": "address"
 					},
 					{
@@ -70,7 +70,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "burnOnOtherSide",
+				"name": "burn",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -79,16 +79,16 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "account",
+						"name": "to",
 						"type": "address"
 					},
 					{
 						"internalType": "uint256",
-						"name": "amount",
+						"name": "from",
 						"type": "uint256"
 					}
 				],
-				"name": "deposit",
+				"name": "depositToOtherSide",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -130,7 +130,7 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "account",
+						"name": "to",
 						"type": "address"
 					},
 					{
@@ -180,7 +180,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/BridgeVeduCoin.sol": "BridgeVedu"
+			"contracts/BridgeWveduCoin.sol": "WveduCoin"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -210,12 +210,12 @@
 				"dweb:/ipfs/QmeTTxZ7qVk9rjEv2R4CpCwdf8UMCcRqDNMvzNxHc3Fnn9"
 			]
 		},
-		"contracts/BridgeVeduCoin.sol": {
-			"keccak256": "0x2a74b7e879e796943f719460d3032adafdf4aaf3b686c424a243fb6f3dc3dd3b",
+		"contracts/BridgeWveduCoin.sol": {
+			"keccak256": "0x77e7a95af4293d551f3a985a5a48ef2250ddbf47773dc9036f069afe90d8294a",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://30addb5cc9db5ee0131dcedbe918031bcc3fb183581bdb252a9e133c19f278c0",
-				"dweb:/ipfs/QmNiof4JyDT4Tk4hGR6EMFjuswkTatdy7hsoXyw7kM6jby"
+				"bzz-raw://d57e959d1cbf8c510d246a24ba981fe0de93317dada637f3ba6a79d7d872f280",
+				"dweb:/ipfs/Qmbbo52qUBKWSqKf82k5jJquPiD1jZTypCZ6phMdAEoGEA"
 			]
 		},
 		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol": {
