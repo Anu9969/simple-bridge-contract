@@ -7,8 +7,11 @@ import "@openzeppelin/contracts/interfaces/IERC20.sol";
 
 contract BridgeVedu is Ownable {
 
+    uint256 public balances;
+    address public tokenAddress;
+
     constructor(address _tokenAddress) Ownable(msg.sender){
-        
+        tokenAddress = _tokenAddress;
     } 
 
     function deposit(address account, uint256 amount) public {

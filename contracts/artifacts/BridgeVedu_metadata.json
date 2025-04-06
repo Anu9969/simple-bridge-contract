@@ -58,6 +58,19 @@
 				"type": "event"
 			},
 			{
+				"inputs": [],
+				"name": "balances",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -111,6 +124,19 @@
 				"name": "renounceOwnership",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tokenAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -211,11 +237,11 @@
 			]
 		},
 		"contracts/BridgeVeduCoin.sol": {
-			"keccak256": "0x2a74b7e879e796943f719460d3032adafdf4aaf3b686c424a243fb6f3dc3dd3b",
+			"keccak256": "0xfa085dde205e91ec51e5b3f01cce50b9cec331c713985ff0cce8b60e885077f6",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://30addb5cc9db5ee0131dcedbe918031bcc3fb183581bdb252a9e133c19f278c0",
-				"dweb:/ipfs/QmNiof4JyDT4Tk4hGR6EMFjuswkTatdy7hsoXyw7kM6jby"
+				"bzz-raw://09c08458f4a276024389c09496f439f1fbfeb59e0dc44fc5ab8719b3c9d5e447",
+				"dweb:/ipfs/Qmf7eKWgLZ4vcutbHNxG38vMFDZqbA6p28xBMbNRkR2MUW"
 			]
 		},
 		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol": {
