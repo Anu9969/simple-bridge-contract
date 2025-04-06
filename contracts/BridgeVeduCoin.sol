@@ -7,18 +7,25 @@ import "@openzeppelin/contracts/interfaces/IERC20.sol";
 
 contract BridgeVedu is Ownable {
 
-    uint256 public balances;
+    // uint256 public balances;
     address public tokenAddress;
+
+    event Deposit(address indexed depositor, uint256 amount);
+
+    mapping (address => uint256) public pendingBalances;
 
     constructor(address _tokenAddress) Ownable(msg.sender){
         tokenAddress = _tokenAddress;
     } 
 
-    function deposit(address account, uint256 amount) public {
-
+    function deposit(IERC20 account, uint256 amount) public {
+        require(address(account) == tokenAddress);
+        require(account.allowance(msg.sender, address(this))>= amount);
+        require(account.transferFrom(msg.sender, address(this), amount));
+        emit Deposit(msg.sender, amount);
     }
 
-    function withdraw(address account, uint256 amount) public {
+    function withdraw(IERC20 account, uint256 amount) public {
 
     }
 

@@ -44,6 +44,25 @@
 					{
 						"indexed": true,
 						"internalType": "address",
+						"name": "depositor",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "Deposit",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
 						"name": "previousOwner",
 						"type": "address"
 					},
@@ -56,19 +75,6 @@
 				],
 				"name": "OwnershipTransferred",
 				"type": "event"
-			},
-			{
-				"inputs": [],
-				"name": "balances",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
 			},
 			{
 				"inputs": [
@@ -91,7 +97,7 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
+						"internalType": "contract IERC20",
 						"name": "account",
 						"type": "address"
 					},
@@ -114,6 +120,25 @@
 						"internalType": "address",
 						"name": "",
 						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "pendingBalances",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -155,7 +180,7 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
+						"internalType": "contract IERC20",
 						"name": "account",
 						"type": "address"
 					},
@@ -237,11 +262,11 @@
 			]
 		},
 		"contracts/BridgeVeduCoin.sol": {
-			"keccak256": "0xfa085dde205e91ec51e5b3f01cce50b9cec331c713985ff0cce8b60e885077f6",
+			"keccak256": "0x1dbae2b5f209f2874b22a1d057a3b6a8b5b807de0973607c0ecc43e7b1fef83e",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://09c08458f4a276024389c09496f439f1fbfeb59e0dc44fc5ab8719b3c9d5e447",
-				"dweb:/ipfs/Qmf7eKWgLZ4vcutbHNxG38vMFDZqbA6p28xBMbNRkR2MUW"
+				"bzz-raw://1fc1e5d6e46b409b15dcfae553816772dca9e4fcf79b74b3646a6f7b063c2876",
+				"dweb:/ipfs/QmZHcv7AMY2BcAdjstttPEUnJBhKez67eCPgAWnt5HFnny"
 			]
 		},
 		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol": {
