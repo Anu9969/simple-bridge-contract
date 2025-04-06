@@ -33,6 +33,6 @@ contract BridgeVedu is Ownable {
     }
 
     function burnOnOtherSide(address account, uint256 amount) public {
-
+        pendingBalances[account] +=amount;
     }
 }
